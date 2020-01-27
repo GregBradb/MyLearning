@@ -1,0 +1,60 @@
+This is a place to keep track of the project plan and execution.
+
+This is a note keeper app:
+	Display a list of notes
+	Edit existing notes
+	Create new notes
+
+Rough Design of our app starting point
+	Quick 'drawing' of the screens
+		Screen 1:  Individual note
+			Course
+				drop down
+			Note title
+			Note body text
+		Screen 2:  List of notes
+			Course 1
+				Note title (smaller text)
+			<..Separator line ..>
+			Course 2
+				Note title (smaller text)
+			<..Separator line ..>
+			Course 3
+				Note title (smaller text)
+			<..Separator line ..>
+			Floating Action Button
+	Features
+		Selection from list of notes transfers control to individual note screen
+		Use Floating Action Button to create a new note
+
+Polished design of our App Starting Point (Screen 1)
+	return & save
+Polished design of list of notes (Screen 2)
+
+
+
+A "Note" is:
+	Course name
+		Must be a real course (drop down list?)
+	Note title
+		User entered text
+	Note text / context
+		User entered
+		Can be long
+
+Advanced / long term plans
+	Automated testing
+	Card-style lists
+	Slide-out drawer navigation
+
+	Track completed modules
+	Branding-based UI theme
+	Device and language adaptability
+	Support for users with accessibility needs
+	User customizable behaviors
+
+	SQLite to store and access our data
+	Make note data available to other apps
+	Display reminder notifications
+	Read/save data in the background
+	Display note information on the home screen using Android Widgets
